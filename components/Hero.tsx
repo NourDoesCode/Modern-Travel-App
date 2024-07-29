@@ -4,12 +4,12 @@ import Button from "./Button";
 
 function Hero() {
   return (
-    <section className="border-4 border-red-500 mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+    <section className=" mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
       {/*background image */}
       <div className="absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60 " />
       {/*Left side */}
 
-      <div className="border-4 border-blue-500 relative z-20 flex flex-1 flex-col xl:w-1/2">
+      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         <h1 className="bold-52 lg:bold-70 ">Putuk Truno Camp Area</h1>
         <p className="text-[16px] font-[400] mt-6 text-gray-30 xl:max-w-[520px] ">
           We want to be on each of your journeys seeking the satisfaction of
@@ -50,10 +50,10 @@ function Hero() {
           />
         </div>
       </div>
-      <div className="relative flex flex-1 items-start border-4 border-purple-500">
+      <div className="relative flex flex-1 items-start ">
         <div className="relative z-20 w-[268px] flex flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
           <div className="flex flex-col">
-            <div className="flex items-center justify-between border-4 border-yellow-500">
+            <div className="flex items-center justify-between ">
               <p className="text-[16px] font-[400] text-gray-20">Location</p>
 
               <Image src="/close.svg" alt="close" width={24} height={24} />
@@ -71,7 +71,7 @@ function Hero() {
               </p>
               <p className=" bold-20 text-white">173.28 mi</p>
             </div>
-            <div className="flex flex-col  border-4 border-orange-500">
+            <div className="flex flex-col  ">
               <p className="text-[16px] font-[400] text-gray-20 block ">
                 Elevation
               </p>
@@ -89,3 +89,6 @@ export default Hero;
  <p className="text-[20px] font-[700] text-white whitespace-nowrap border-4 border-orange-500 ">
                 Aguas Calientes
               </p> */
+//border-4 border-purple-500
+//border-4 border-orange-500
+//border-4 border-yellow-500
