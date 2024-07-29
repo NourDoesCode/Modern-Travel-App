@@ -6,7 +6,7 @@ import Button from "./Button";
 
 function Navbar() {
   return (
-    <nav className="border-4 border-red-500 flex items-center justify-between px-6 lg:px-20 3xl:px-0 relative z-30 py-5">
+    <nav className=" flex items-center justify-between px-6 lg:px-20 3xl:px-0 relative z-30 py-5">
       <Link href="/">
         <Image
           className="pl-5"
@@ -19,7 +19,7 @@ function Navbar() {
       <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
           <Link
-            className="border-4 border-green-500 regular-16 text-gray-50 flex items-center justify-center  pb-1.5 transition-all hover:font-bold"
+            className="regular-16 text-gray-50 flex items-center justify-center  pb-1.5 transition-all hover:font-bold"
             href={link.href}
             key={link.key}
           >
@@ -35,6 +35,13 @@ function Navbar() {
           variant="btn_dark_green"
         />
       </div>
+      <Image
+        src="menu.svg"
+        alt="menu"
+        width={32}
+        height={32}
+        className="lg:hidden cursor-pointer inline-block"
+      />
     </nav>
   );
 }
