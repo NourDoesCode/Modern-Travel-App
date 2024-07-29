@@ -10,13 +10,6 @@ function Hero() {
       {/*Left side */}
 
       <div className="border-4 border-blue-500 relative z-20 flex flex-1 flex-col xl:w-1/2">
-        <Image
-          className="absolute left-[-50] top-[-30px] w-10 lg:w-[50px]"
-          src="/camp.svg"
-          alt="camp"
-          width={50}
-          height={50}
-        />
         <h1 className="bold-52 lg:bold-70 ">Putuk Truno Camp Area</h1>
         <p className="text-[16px] font-[400] mt-6 text-gray-30 xl:max-w-[520px] ">
           We want to be on each of your journeys seeking the satisfaction of
