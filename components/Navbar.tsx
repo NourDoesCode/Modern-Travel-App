@@ -10,7 +10,7 @@ function Navbar() {
       <Link href="/">
         <Image
           className="pl-5"
-          src="/hilink-logo.svg"
+          src="./hilink-logo.svg"
           alt="logo"
           width={90}
           height={40}
@@ -36,7 +36,7 @@ function Navbar() {
         />
       </div>
       <Image
-        src="menu.svg"
+        src="./menu.svg"
         alt="menu"
         width={32}
         height={32}

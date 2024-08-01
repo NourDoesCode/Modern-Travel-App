@@ -22,7 +22,7 @@ function Hero() {
               .fill(1)
               .map((_, index) => (
                 <Image
-                  src="/star.svg"
+                  src="./star.svg"
                   alt="stars"
                   key={index}
                   width={24}
@@ -56,7 +56,7 @@ function Hero() {
             <div className="flex items-center justify-between ">
               <p className="text-[16px] font-[400] text-gray-20">Location</p>
 
-              <Image src="/close.svg" alt="close" width={24} height={24} />
+              <Image src="./close.svg" alt="close" width={24} height={24} />
             </div>
 
             <p className="text-[20px] bold-20 text-white whitespace-nowrap ">

@@ -10,7 +10,7 @@ function Features() {
       >
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
-            src="/phone.png"
+            src="./phone.png"
             alt="phone"
             width={440}
             height={1000}
@@ -20,7 +20,7 @@ function Features() {
         <div className="z-20  flex flex-col lg:w-[60%] w-full  ">
           <div className="relative ">
             <Image
-              src="/camp.svg"
+              src="./camp.svg"
               alt="camp"
               width={50}
               height={50}
