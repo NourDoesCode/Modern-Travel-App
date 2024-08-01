@@ -45,7 +45,7 @@ function Hero() {
           <Button
             type="button"
             title="How we work"
-            icon="/play.svg"
+            icon="./play.svg"
             variant="btn_white_text"
           />
         </div>
